@@ -58,6 +58,7 @@ sensor:
         window_size: "00:05"
         precision: 2
 ```
+The example above will create two new entities: sensor.filtered_realistic_humidity and sensor.filtered_realistic_temperature 
 
 Filters can be chained and are applied according to the order present in the configuration file.
 
